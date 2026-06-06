@@ -10,3 +10,4 @@ venv/
 .idea/
 *.egg-info/
 forensics-carving-tp2/
+cible_image.jpg
