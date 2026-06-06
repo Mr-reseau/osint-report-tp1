@@ -9,3 +9,4 @@ env/
 venv/
 .idea/
 *.egg-info/
+forensics-carving-tp2/

@@ -16,11 +16,11 @@ Ce rapport présente le processus d'enquête OSINT réalisé à partir d'un pseu
 ### Comptes découverts
 - Kvinneguiden : `https://forum.kvinneguiden.no`
 - LessWrong : `https://www.lesswrong.com/users/hacker_target2026`
-- SoylentNews : `https://soylentnews.org/~hacker_target2026`
+- SoylentNews : `https://soylentnews.org/~hacker_target2026` (site indisponible, erreur 503 Backend fetch failed)
 - Wikipedia central auth : `https://en.wikipedia.org/wiki/Special:CentralAuth/hacker_target2026?uselang=qqx`
 - omg.lol : `https://hacker_target2026.omg.lol`
 
-> Remarque : ces URL sont les résultats réels fournis par Sherlock pour le pseudonyme `hacker_target2026`.
+> Remarque : ces URL sont les résultats réels fournis par Sherlock pour le pseudonyme `hacker_target2026`. Certaines pages peuvent être temporairement indisponibles ou en maintenance.
 
 ## 3. Étape 2 - Extraction de métadonnées
 
@@ -54,4 +54,5 @@ Ce rapport présente le processus d'enquête OSINT réalisé à partir d'un pseu
 ## 6. Actions recommandées
 - Documenter précisément les URL et les résultats ExifTool réels.
 - Conserver une copie des sorties Sherlock et ExifTool comme annexes.
+- Re-vérifier les liens retournant des erreurs temporaires (ex. SoylentNews 503) pour confirmer l’état actuel.
 - Pousser le rapport final dans le dépôt `osint-report-tp1`.
