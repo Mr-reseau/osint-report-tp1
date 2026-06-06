@@ -1,0 +1,11 @@
+# Ignore the Sherlock clone and Python artifacts
+sherlock/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.idea/
+*.egg-info/
