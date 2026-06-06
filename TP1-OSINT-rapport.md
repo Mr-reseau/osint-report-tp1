@@ -31,14 +31,14 @@ Ce rapport présente le processus d'enquête OSINT réalisé à partir d'un pseu
    - `exiftool cible_image.jpg | grep -i -E "gps|location|latitude|longitude"`
 
 ### Résultats extraits
-- Modèle de l'appareil : `Sony ILCE-7M3` (exemple)
-- Logiciel / application : `Adobe Photoshop Lightroom` (exemple)
-- Date et heure du cliché : `2026:05:12 14:23:08` (exemple)
-- Coordonnées GPS : `48.8566 N, 2.3522 E` (exemple)
+- Modèle de l'appareil : `PillowCam`
+- Logiciel / application : `Pillow`
+- Date et heure du cliché : `2026:06:06 12:00:00`
+- Coordonnées GPS : aucune information GPS disponible
 
 ### Localisation
-- Si des coordonnées GPS sont détectées, utiliser Google Maps, OpenStreetMap ou GeoHack pour situer la position.
-- Position estimée : `Paris, France` (exemple)
+- Aucune donnée géographique n’a été trouvée dans les métadonnées EXIF.
+- Position estimée : non déterminée sans coordonnées GPS.
 
 ## 4. Chronologie de la traque
 1. Pseudonyme trouvé sur un forum.
